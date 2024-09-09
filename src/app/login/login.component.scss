@@ -1,0 +1,86 @@
+.login-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #FCC468;
+    width: 450px;
+    height: 500px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-box,
+.login-box button {
+    display: flex;
+    align-items: center;
+}
+
+.login-box {
+    width: 300px;
+    height: 240px;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.login-box button {
+    width: 300px;
+    height: 40px;
+    background-color: #fff;
+    outline: none;
+    font-weight: bold;
+    border: 1px solid rgb(211, 210, 210);
+    border-radius: 20px;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.login-box-one button img {
+    margin: 0 0.5rem;
+}
+
+.login-box-one i {
+    color: #00acee;
+    font-size: 1.8rem;
+}
+
+.login-box-two input {
+    position: relative;
+    width: 300px;
+    height: 55px;
+    outline: none;
+    border: 1px solid rgb(211, 210, 210);
+    border-radius: 4px;
+    padding-left: 10px;
+}
+
+.login-box-two input::placeholder {
+    font-size: 1rem;
+}
+
+.login-box-two input:focus {
+    border: 1px solid #00acee;
+}
+
+.login-box-two .login-next-btn {
+    background-color: #121212;
+    color: #fff;
+}
+
+.login-container p {
+    font-size: 0.7rem;
+    color: rgb(138, 136, 136);
+}
+
+.login-container p a {
+    text-decoration: none;
+    color: #00acee;
+}
+
+p{
+    color: #000;
+}
